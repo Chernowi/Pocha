@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
+public class MainActivityAdapter extends RecyclerView.Adapter<MainActivityAdapter.ViewHolder> {
     private ArrayList<Player> players;
     private OnItemClickListener mListener;
 
@@ -23,7 +23,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
         mListener = listener;
     }
 
-    public Adapter(ArrayList<Player> playerList) {
+    public MainActivityAdapter(ArrayList<Player> playerList) {
         players = playerList;
     }
 

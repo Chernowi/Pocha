@@ -1,6 +1,8 @@
 package com.madridlabs.contadordepocha;
 
-public class Player {
+import java.io.Serializable;
+
+public class Player implements Serializable {
     private int score;
     private String name;
 
