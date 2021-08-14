@@ -22,6 +22,8 @@ public class PlayActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_play);
 
+        getSupportActionBar().hide();
+
         if(getIntent().getExtras() != null) {
             players = (ArrayList<Player>) getIntent().getSerializableExtra("players");
         }
